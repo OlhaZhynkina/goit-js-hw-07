@@ -66,3 +66,29 @@ ol {
 }
 
 /** END TASK-1 */
+
+/** TASK-2 */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  list-style: none;
+  padding: 20px;
+  justify-content: center;
+}
+
+.gallery li {
+  flex-basis: calc((100% - 15px) / 3);
+  box-sizing: border-box;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 30px;
+}
+
+/** END TASK-2 */
